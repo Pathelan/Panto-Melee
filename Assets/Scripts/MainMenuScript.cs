@@ -6,6 +6,7 @@ public class MainMenuScript : MonoBehaviour
 {
     public GameObject MainMenu;
     public GameObject CreditsMenu;
+    public GameObject ControlsMenu;
 
     // Start is called before the first frame update
     void Start()
@@ -24,6 +25,13 @@ public class MainMenuScript : MonoBehaviour
         // Show Credits Menu
         MainMenu.SetActive(false);
         CreditsMenu.SetActive(true);
+        ControlsMenu.SetActive(false);
+    }
+
+    public void ControlsButton()
+    {
+        // Show Controls
+        ControlsMenu.SetActive(true);
     }
 
     public void MainMenuButton()
