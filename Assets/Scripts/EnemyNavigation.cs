@@ -9,6 +9,7 @@ public class EnemyNavigation : MonoBehaviour
     [SerializeField] private Transform target0;
     [SerializeField] private Transform target1;
     [SerializeField] private Transform target2;
+    [SerializeField] float destinationReachedThreshold;
     private Transform[] targets; 
     private NavMeshAgent agent;
 
@@ -16,12 +17,11 @@ public class EnemyNavigation : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        targets = new Transform[4];
+        targets = new Transform[3];
 
-        targets[0] = player;
-        targets[1] = target0;
-        targets[2] = target1;
-        targets[3] = target2;
+        targets[0] = target0;
+        targets[1] = target1;
+        targets[2] = target2;
 
         agent = GetComponent<NavMeshAgent>();
 
@@ -30,7 +30,7 @@ public class EnemyNavigation : MonoBehaviour
 
     void SelectTarget()
     {
-        int chosenTarget = Random.Range(0, targets.Length - 1);
+        int chosenTarget = Random.Range(0, targets.Length);
         agent.destination = new Vector3(targets[chosenTarget].transform.position.x, targets[chosenTarget].transform.position.y, targets[chosenTarget].transform.position.z);
         Debug.Log(targets[chosenTarget]);
     }
@@ -38,8 +38,16 @@ public class EnemyNavigation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //agent.destination = player.position;
-        if (transform.position == agent.destination) {
+        agent.velocity = agent.desiredVelocity;
+        CheckDestinationReached();
+    }
+
+    void CheckDestinationReached()
+    {
+        float distanceToTarget=Vector3.Distance(transform.position, agent.destination);
+        if (distanceToTarget < destinationReachedThreshold)
+        {
+            print("Destination Reached");
             SelectTarget();
         }
     }
