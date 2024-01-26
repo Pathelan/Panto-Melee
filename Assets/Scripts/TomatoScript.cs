@@ -23,7 +23,7 @@ public class TomatoScript : MonoBehaviour
     private AudioClip[] audienceLaughs;
 
 
-    public float launchForce = 15f;
+    public float launchForce = 30f;
     public float launchHeight = 0f;
 
 
@@ -57,7 +57,7 @@ public class TomatoScript : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         // Apply Force
-        rb.velocity = transform.right * launchForce;
+        rb.velocity = transform.forward * launchForce;
     }
 
     
@@ -99,7 +99,6 @@ public class TomatoScript : MonoBehaviour
         AudioClip clip = audienceLaughs[chosenSound];
         audioSource.volume = 0.25f;
         audioSource.PlayOneShot(clip);
-        print(chosenSound.ToString());
 
         yield return new WaitForSeconds(7.5f);
 

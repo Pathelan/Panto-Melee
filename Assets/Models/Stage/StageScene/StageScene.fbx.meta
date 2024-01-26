@@ -3,7 +3,132 @@ guid: 0e82feee63896d442a684495c0019928
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CurtainHanger
+    second: {fileID: 2100000, guid: fef074e041ef7e54f9e1beb063a2d6ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Floor1
+    second: {fileID: 2100000, guid: 6630bf5f7cb1ef04b9a734f630f46042, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface11
+    second: {fileID: 2100000, guid: 4d2ce97dff8051c43bcc3745a5caa773, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface13
+    second: {fileID: 2100000, guid: a109217efdbc7d14fb52259424361e6a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface2
+    second: {fileID: 2100000, guid: bfae60bd158678141acc282e0790e805, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface5
+    second: {fileID: 2100000, guid: 7c5406d07d050f944a973ef8f5fb8f24, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface6
+    second: {fileID: 2100000, guid: 5829e72ec263b394f8ea272ab1505db8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface8
+    second: {fileID: 2100000, guid: 5a28cf56defdec84cae502fe5f0cc189, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface9
+    second: {fileID: 2100000, guid: 3783c64daaecf4840a02a39c47ee2c32, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface4SG_Height
+    second: {fileID: 2800000, guid: 38c7a2d4b6444a34e8daa1c5ea32c3e1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface4SG_Metallic
+    second: {fileID: 2800000, guid: 6e2cdcac6f6e4384cb9339c26b6e9c7f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface4SG_Normal_DirectX
+    second: {fileID: 2800000, guid: c524e25442b9e3a4296659b11291bdc0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface4SG_Roughness
+    second: {fileID: 2800000, guid: 55ae07311a8ffa04c91aaec059e34a43, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface7SG_Height
+    second: {fileID: 2800000, guid: 39cae13634795c044bcfab5fa79776a9, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface7SG_Metallic
+    second: {fileID: 2800000, guid: e1c9fc52e5badf843b9b230ad2ebb6c8, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface7SG_Normal_DirectX
+    second: {fileID: 2800000, guid: 95f0b33405011074b939e261db1d0502, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: aiStandardSurface7SG_Roughness
+    second: {fileID: 2800000, guid: f9aca326bc18c4141bca7d908fca4aa1, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup_Height
+    second: {fileID: 2800000, guid: 19de147c2fcac004990f9a48abb744ff, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup_Metallic
+    second: {fileID: 2800000, guid: d0e0c120525897d489ac5712554d607e, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup_Normal_DirectX
+    second: {fileID: 2800000, guid: 46cff87155fe11447895e671c310c582, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: initialShadingGroup_Roughness
+    second: {fileID: 2800000, guid: 427a164b0be29e94d9ebbabd28c1263b, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: set2_Height
+    second: {fileID: 2800000, guid: 091cb8023dc999346b6bafd5d94bb251, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: set2_Metallic
+    second: {fileID: 2800000, guid: f6c632d027cfa3841aff01d851b9342f, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: set2_Normal_DirectX
+    second: {fileID: 2800000, guid: c1ffe1b447af2644aaa021de9974b2e0, type: 3}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: set2_Roughness
+    second: {fileID: 2800000, guid: 12427b73be4ef304db57181ccdc2790e, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
