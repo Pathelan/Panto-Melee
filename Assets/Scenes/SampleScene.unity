@@ -45,6 +45,23 @@ LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
   m_GIWorkflowMode: 1
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -433,6 +450,17 @@ BoxCollider:
+  
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -436,6 +453,17 @@ BoxCollider:
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &582714253
 GameObject:
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -453,6 +481,23 @@ GameObject:
+  
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -457,6 +485,23 @@ GameObject:
   m_IsActive: 1
 --- !u!54 &582714254
 Rigidbody:
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -572,6 +617,23 @@ Transform:
+  
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -590,6 +635,23 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -611,6 +673,17 @@ MonoBehaviour:
+  
   serializedVersion: 6
   m_Component:
   - component: {fileID: 699299169}
@@ -629,6 +691,23 @@ Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -721,6 +794,23 @@ Transform:
+  
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 699299167}
   serializedVersion: 2
@@ -645,6 +724,23 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -892,6 +982,23 @@ Transform:
+  
   serializedVersion: 6
   m_Component:
   - component: {fileID: 811426349}
@@ -816,6 +912,23 @@ Transform:
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 20, y: 0, z: 0}
 --- !u!114 &963194229
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -1082,6 +1189,23 @@ Transform:
+  
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1006,6 +1119,23 @@ Transform:
   - {fileID: 3862285}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -1326,6 +1450,17 @@ GameObject:
+  
 --- !u!114 &1957227490
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1253,6 +1383,17 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -1343,6 +1478,23 @@ Transform:
+  
   m_IsActive: 1
 --- !u!4 &2118262986
 Transform:
@@ -1270,6 +1411,23 @@ Transform:
   - {fileID: 1023633382}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+
+    
+          
+            
+    
+
+          
+          Expand Down
+          
+            
+    
+
+          
+          Expand Up
+    
+    @@ -1401,4 +1553,4 @@ SceneRoots:
+  
 --- !u!143 &2118262987
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1377,4 +1535,5 @@ SceneRoots:
   - {fileID: 2118262986}
   - {fileID: 582714258}
   - {fileID: 141833595}
+  - {fileID: 1965004200}
   - {fileID: 1965004200}
