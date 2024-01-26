@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class EnemyLockOn : MonoBehaviour
 {
-    [SerializeField] private GameObject lockOn;
+    [SerializeField] private MeshRenderer renderer;
 
     public bool drawLockOn = false;
 
     // Update is called once per frame
     void Update()
     {
-        lockOn.SetActive(drawLockOn); 
+        renderer.enabled = drawLockOn;
     }
 }

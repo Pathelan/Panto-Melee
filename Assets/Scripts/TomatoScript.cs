@@ -57,7 +57,7 @@ public class TomatoScript : MonoBehaviour
         rb = GetComponent<Rigidbody>();
 
         // Apply Force
-        rb.velocity = transform.right * launchForce;
+        rb.velocity = transform.forward * launchForce;
     }
 
     
