@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ground
   - NavMesh
+  - Enemy
   layers:
   - Default
   - TransparentFX
