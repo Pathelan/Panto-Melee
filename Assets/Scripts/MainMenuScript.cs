@@ -17,7 +17,7 @@ public class MainMenuScript : MonoBehaviour
     public void StartButton()
     {
         // Play Now Button has been pressed, here you can initialize your game (For example Load a Scene called GameLevel etc.)
-        UnityEngine.SceneManagement.SceneManager.LoadScene("SampleScene");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("Stage");
     }
 
     public void CreditsButton()
@@ -39,6 +39,7 @@ public class MainMenuScript : MonoBehaviour
         // Show Main Menu
         MainMenu.SetActive(true);
         CreditsMenu.SetActive(false);
+
     }
 
     public void QuitButton()
