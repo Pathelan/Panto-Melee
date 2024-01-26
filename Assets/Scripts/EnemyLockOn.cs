@@ -11,6 +11,6 @@ public class EnemyLockOn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        lockOn.SetActive(drawLockOn);
+        lockOn.SetActive(drawLockOn); 
     }
 }
