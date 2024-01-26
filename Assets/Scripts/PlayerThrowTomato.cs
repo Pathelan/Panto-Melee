@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class PlayerThrowTomato : MonoBehaviour
 {
     [SerializeField] private GameObject tomato;
     [SerializeField] private Transform spawnPoint;
+    [SerializeField] private TextMeshProUGUI text;
 
     private Animator anim;
-    
 
     public int tomatoesHeld = 0;
 
@@ -35,5 +36,6 @@ public class PlayerThrowTomato : MonoBehaviour
 
         // Reduce Tomato Count
         tomatoesHeld--;
+        text.GetComponent<TextMeshProUGUI>().text = tomatoesHeld.ToString();
     }
 }

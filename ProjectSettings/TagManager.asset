@@ -6,20 +6,10 @@ TagManager:
   tags:
   - Ground
   - NavMesh
+  - Enemy
   layers:
   - Default
   - TransparentFX
-
-    
-          
-            
-    
-
-          
-          Expand Down
-    
-    
-  
   - Ignore Raycast
   - 
   - Water

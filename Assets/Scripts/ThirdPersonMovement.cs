@@ -92,7 +92,7 @@ public class ThirdPersonMovement  : MonoBehaviour
 
             if (direction.magnitude >= 0.1f)
             {
-                if (!lockOn.isLockedOn || distanceToEnemy > 8f)
+                if (!lockOn.isLockedOn || distanceToEnemy > 4f)
                 {
                     float targetAngle = (Mathf.Atan2(direction.z, -direction.x) * Mathf.Rad2Deg) - 90f;
                     float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
